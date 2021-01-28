@@ -9,3 +9,9 @@ For actual game examples, please see [FXGLGames](https://github.com/AlmasB/FXGLG
 ```
 mvn javafx:run
 ```
+
+### Run via Gradle
+
+```
+./gradlew run
+```
