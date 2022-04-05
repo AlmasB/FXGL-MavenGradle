@@ -1,7 +1,7 @@
 plugins {
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.10'
-    id 'org.jetbrains.kotlin.jvm' version '1.4.30'
+    id 'org.jetbrains.kotlin.jvm' version '1.5.32'
 }
 
 application {
@@ -17,12 +17,12 @@ repositories {
 }
 
 dependencies {
-    compile 'org.jetbrains.kotlin:kotlin-stdlib:1.4.30'
-    compile 'com.github.almasb:fxgl:11.16'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.5.32'
+    implementation 'com.github.almasb:fxgl:17.1'
 }
 
 javafx {
-    version = "16"
+    version = "18"
     modules = [ 'javafx.controls', 'javafx.graphics', 'javafx.fxml', 'javafx.media' ]
 }
 
